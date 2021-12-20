@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -307,6 +312,12 @@ header {
 }
 
 @media (max-width: 992px) {
+  .display-4 {
+    font-size: 2rem;
+  }
+  .display-3 {
+    font-size: 1rem;
+  }
   .contact {
     background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 32, .95));
   }
